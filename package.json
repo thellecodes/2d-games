@@ -1,0 +1,64 @@
+{
+  "name": "games",
+  "version": "1.0.0",
+  "description": "Game development by thellecodes",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thellecodes/2d-games.git"
+  },
+  "keywords": [
+    "Thelle",
+    "ThelleCodes",
+    "Game",
+    "Development",
+    "JavaScript",
+    "Games",
+    "JavaScript",
+    "Game",
+    "Development"
+  ],
+  "author": "Thelle Codes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thellecodes/2d-games/issues"
+  },
+  "homepage": "https://github.com/thellecodes/2d-games#readme",
+  "devDependencies": {
+    "@types/animejs": "^3.1.7",
+    "@types/node": "^18.15.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/styled-components": "^5.1.26",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@parcel/transformer-js": "^2.8.3",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@vitejs/plugin-react": "^3.1.0",
+    "animejs": "^3.2.1",
+    "framer-motion": "^10.2.4",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.9.0",
+    "redux-persist": "^6.0.0",
+    "uuid": "^9.0.0",
+    "vite": "^4.1.4",
+    "xstate": "^4.37.0"
+  }
+}
